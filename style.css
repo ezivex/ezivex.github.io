@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(248, 246, 246, 0.774);
+    font-family: "Sen", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px){
+    .container{
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+}
+ul > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    font-size: 2.5rem;
+    margin: 5px 0;
+    border: 1px solid pink;
+
+}
+ul> li > a{
+    text-decoration: none;
+    color: rgb(225, 71, 218);
+    display: block;
+}
+.day__box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 3px solid pink;
+    margin: 2em auto;
+}
+.lesson__box{
+    width: 90%;
+    background-color: rgb(248, 235, 114);
+    margin: 1em auto ;
+    text-align: left;
+    padding: 1.4em;
+}
+h3{
+    font-size: 1.3rem;
+}
+h4{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.day__name{
+    font-size: 2em;
+    margin: 2em auto;
+    color: rgb(225, 71, 218);
+}
+.green{
+    background-color: rgb(136, 248, 114);
+}
+.orange{
+    background-color: rgb(248, 157, 114);
+}
+.yellow{
+    background-color: rgb(248, 235, 114);
+}
+.yellow{
+    background-color: rgb(248, 235, 114);
+}
+.blue{
+    background-color: rgb(114, 232, 248);
+}
+.dblue{
+        background-color: rgb(143, 114, 248);
+}
+.pinky{
+    background-color: rgb(248, 114, 226);
+}
+.others{
+    background-color: rgb(190, 248, 114);
+}
+}
